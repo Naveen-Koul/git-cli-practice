@@ -10,3 +10,6 @@ A: git diff README.md
 
 4. Assuming that you are currently within a Git repository, write the command (or commands) that will display the changes from the commit with the ID of abc123.  
 A: git show abc123
+
+5. Assuming that you are currently within a Git repository, write the command (or commands) that will display the ID and commit message for the 3 most recent commits.  
+A: git log --oneline -n 3
